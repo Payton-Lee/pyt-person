@@ -1,0 +1,156 @@
+body {
+    background: url(../img/bj.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.shortcut {
+    position: relative;
+    height: 54px;
+    background-color: rgba(255, 255, 255, 0.555);
+}
+
+.logo {
+    height: 54px;
+    width: 200px;
+}
+
+.logo a {
+    display: block;
+    height: 54px;
+    width: 200px;
+    background: url(../img/logo.png) no-repeat;
+    font-size: 0;
+}
+
+.discover {
+    height: 54px;
+    margin-left: 40px;
+    line-height: 54px;
+    font-size: 20px;
+}
+
+.discover li {
+    margin-right: 10px;
+    float: left;
+    height: 52px;
+}
+
+.discover li:hover {
+    border-bottom: 2px solid #c81623;
+}
+
+.discover li a {
+    display: block;
+    padding: 0 20px;
+    height: 100%;
+}
+
+.login {
+    position: absolute;
+    top: 9px;
+    left: 1100px;
+    overflow: hidden;
+}
+
+.login a {
+    display: inline-block;
+    height: 35px;
+    width: 85px;
+    border-radius: 5px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    background-color: #c81623;
+    transition: all 0.7s;
+}
+
+.login a:hover {
+    box-shadow: 0px 15px 30px rgb(0 0 0 / 10%);
+    transform: translate3d(0, -1px, 0);
+}
+
+.biaoti {
+    height: 90px;
+    margin: 90px auto;
+    text-align: center;
+    line-height: 90px;
+    color: #000;
+}
+
+.biaoti h2 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    height: 32px;
+    width: 500px;
+    outline: none;
+    border: 2px solid #b1191a;
+    padding-left: 10px;
+    color: #ccc;
+}
+
+.btn {
+    width: 82px;
+    height: 36px;
+    background-color: #b1191a;
+    margin-left: -3px;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.fenlei {
+    width: 600px;
+    margin: 45px auto 0;
+    overflow: hidden;
+}
+
+.fenlei li {
+    float: left;
+    width: 100px;
+    padding: 0 10px;
+}
+
+.fenlei li dt {
+    margin: 10px auto;
+}
+
+.fenlei li dd {
+    margin: 10px auto;
+}
+
+.fenlei li a {
+    display: block;
+    width: 100%;
+    transition: all 0.7s;
+}
+
+.fenlei li a:hover {
+    text-decoration: underline;
+}
+
+.change {
+    height: 26px;
+    line-height: 26px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'icomoon';
+}
+
+.change a {
+    display: inline-block;
+    height: 26px;
+    transition: all 0.7s;
+}
+
+.change i {
+    vertical-align: -1.75px;
+}

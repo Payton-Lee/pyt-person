@@ -1,0 +1,82 @@
+.introduce {
+    margin-top: 64px;
+}
+.nav {
+    position: relative;
+}
+.nav img {
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    width: 120px;
+    border: 2px solid #b1191a;
+}
+.nav .bottom,
+.nav .top {
+    overflow: hidden;
+    width: 100%;
+}
+.nav .top {
+    background-color: rgba(255, 255, 255, 0.288);
+    border-radius: 15px 15px 0 0;
+}
+.nav .bottom {
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+
+}
+.nav .top h3 {
+    height: 40px;
+    padding: 10px;
+    width: 830px;
+    float: right;
+    font-size: 22px;
+    line-height: 40px;
+    margin-right: 80px;
+}
+.nav .top a {
+    display: inline-block;
+	height: 35px;
+	width: 85px;
+	border-radius: 5px;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+	background-color: #c81623;
+    transition: all 0.7s;
+}
+.nav .top a:hover {
+	box-shadow: 0px 15px 30px rgb(0 0 0 / 10%);
+    transform: translate3d(0, -1px, 0);
+}
+.nav .bottom p {
+    height: 130px;
+    padding: 10px;
+    width: 830px;
+    float: right;
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 80px;
+}
+.content {
+    margin-top: 10px;
+    padding: 10px 80px 10px 80px;
+    border-radius: 15px;
+    background-color: #fff;
+} 
+.content-hd {
+    height: 54px;
+    line-height: 54px;
+    font-size: 22px;
+    border-bottom: 1px solid #ccc;
+}
+.content-bd {
+    line-height: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.show li {
+    float: left;
+    width: 200px;
+    margin: 0 10px 10px 0;
+}
